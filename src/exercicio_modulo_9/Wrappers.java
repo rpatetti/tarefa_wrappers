@@ -4,14 +4,14 @@ public class Wrappers {
 
 	public static void main(String[] args) {
 		
-		byte num1 = 10;
-		long num2 = num1;
-		System.out.println(num1);
+		Boolean situacao = true;
+		Boolean situacao1 = Boolean.TRUE;
 		
-		//deixei esse apresentar um erro
-		int numA = 11111111;
-		short numB = (short) numA;
-		System.out.println(numB);
+		Long rg = Long.valueOf(36385747);
+		Long rg1 = 1452685l;
+		
+		char tipo = Character.valueOf('B');
+		int ano = Integer.valueOf(2005);
 		
 	}
 
